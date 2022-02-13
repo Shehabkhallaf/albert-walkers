@@ -1,0 +1,975 @@
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(245, 68, 68);
+}
+
+.nav-link {
+    font-size: 800;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.home {
+    background-image: url('../Imgs/1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.homeLayar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layarcontant {
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.layarcontant img {
+    width: 13%;
+    height: 27%;
+    border: 7px solid rgba(255, 255, 255, .08);
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.layarcontant h1 {
+    color: white;
+}
+
+.layarcontant span {
+    color: rgb(245, 68, 68);
+}
+
+.layarcontant h2 {
+    color: white;
+}
+
+.layarcontant h2::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    color: white;
+}
+
+@keyframes typing {
+    0% {
+        content: "D |";
+    }
+
+    2% {
+        content: "De |";
+    }
+
+    4% {
+        content: "Dev |";
+    }
+
+    6% {
+        content: "Deve |";
+    }
+
+    8% {
+        content: "Devel |";
+    }
+
+    10% {
+        content: "Develo |";
+    }
+
+    12% {
+        content: "Develop |";
+    }
+
+    14% {
+        content: "Develope |";
+    }
+
+    16% {
+        content: "Developer |";
+    }
+
+    18% {
+        content: "Develope |";
+    }
+
+    19% {
+        content: "Develop |";
+    }
+
+    20% {
+        content: "Develo |";
+    }
+
+    21% {
+        content: "Devel |";
+    }
+
+    22% {
+        content: "Deve |";
+    }
+
+    23% {
+        content: "Dev |";
+    }
+
+    24% {
+        content: "De |";
+    }
+
+    25% {
+        content: "Des |";
+    }
+
+    26% {
+        content: "Des |";
+    }
+
+    27% {
+        content: "Desg |";
+    }
+
+    28% {
+        content: "Desgi |";
+    }
+
+    29% {
+        content: "Desgin |";
+    }
+
+    30% {
+        content: "Desgin |";
+    }
+
+    32% {
+        content: "Desgine |";
+    }
+
+    36% {
+        content: "Desginer |";
+    }
+
+    37% {
+        content: "Desgine |";
+    }
+
+    38% {
+        content: "Desgin |";
+    }
+
+    39% {
+        content: "Desgi |";
+    }
+
+    40% {
+        content: "Desg |";
+    }
+
+    41% {
+        content: "Des |";
+    }
+
+    42% {
+        content: "De |";
+    }
+
+    43% {
+        content: "D |";
+    }
+
+    44% {
+        content: " |";
+    }
+
+    45% {
+        content: "P |";
+    }
+
+    46% {
+        content: "Ph |";
+    }
+
+    48% {
+        content: "Pho |";
+    }
+
+    50% {
+        content: "Phot |";
+    }
+
+    51% {
+        content: "Photo |";
+    }
+
+    52% {
+        content: "Photog |";
+    }
+
+    54% {
+        content: "Photogr |";
+    }
+
+    55% {
+        content: "Photogra |";
+    }
+
+    57% {
+        content: "Photograp |";
+    }
+
+    59% {
+        content: "Photograph |";
+    }
+
+    58% {
+        content: "Photographe |";
+    }
+
+    60% {
+        content: "Photographer |";
+    }
+
+    61% {
+        content: "Photographe |";
+    }
+
+    62% {
+        content: "Photograph |";
+    }
+
+    63% {
+        content: "Photograp |";
+    }
+
+    64% {
+        content: "Photogra |";
+    }
+
+    65% {
+        content: "Photogr |";
+    }
+
+    66% {
+        content: "Photog |";
+    }
+
+    67% {
+        content: "Photo |";
+    }
+
+    68% {
+        content: "Phot |";
+    }
+
+    69% {
+        content: "Pho |";
+    }
+
+    70% {
+        content: "Ph |";
+    }
+
+    71% {
+        content: "P |";
+    }
+
+    72% {
+        content: " |";
+    }
+
+    74% {
+        content: "F |";
+    }
+
+    76% {
+        content: "Fr |";
+    }
+
+    77% {
+        content: "Fre |";
+    }
+
+    78% {
+        content: "Free |";
+    }
+
+    80% {
+        content: "Freel |";
+    }
+
+    82% {
+        content: "Freela |";
+    }
+
+    84% {
+        content: "Freelan |";
+    }
+
+    86% {
+        content: "Freelanc |";
+    }
+
+    88% {
+        content: "Freelance |";
+    }
+
+    90% {
+        content: "Freelancer |";
+    }
+
+    91% {
+        content: "Freelance |";
+    }
+
+    92% {
+        content: "Freelanc |";
+    }
+
+    93% {
+        content: "Freelan |";
+    }
+
+    94% {
+        content: "Freela |";
+    }
+
+    95% {
+        content: "Freel |";
+    }
+
+    96% {
+        content: "Free |";
+    }
+
+    97% {
+        content: "Fre |";
+    }
+
+    98% {
+        content: "Fr |";
+    }
+
+    99% {
+        content: "F |";
+    }
+
+    100% {
+        content: " |";
+    }
+}
+
+.angle-down {
+    width: 100px;
+    height: 60px;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    animation-name: homeMouse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes homeMouse {
+    0% {
+        bottom: 60px;
+    }
+
+    20% {
+        bottom: 10px;
+    }
+
+    40% {
+        bottom: 40px;
+    }
+
+    60% {
+        bottom: 10px;
+    }
+
+    80% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom: 10px;
+    }
+
+}
+
+.setting {
+    top: 25%;
+    cursor: pointer;
+    color: white;
+    font-size: 25;
+}
+
+.abouthead p {
+    color: rgb(245, 68, 68);
+}
+
+.abouthead h2 {
+    color: black;
+    font-size: 35;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+}
+
+.container-photo {
+    border: black solid 7px;
+}
+
+.container-photo img {
+    transform: translate(-20px, -20px);
+    width: 100%;
+}
+
+.container-content h2::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: rgb(245, 68, 68);
+}
+
+@keyframes typing {
+    0% {
+        content: "D |";
+    }
+
+    2% {
+        content: "De |";
+    }
+
+    4% {
+        content: "Dev |";
+    }
+
+    6% {
+        content: "Deve |";
+    }
+
+    8% {
+        content: "Devel |";
+    }
+
+    10% {
+        content: "Develo |";
+    }
+
+    12% {
+        content: "Develop |";
+    }
+
+    14% {
+        content: "Develope |";
+    }
+
+    16% {
+        content: "Developer |";
+    }
+
+    18% {
+        content: "Develope |";
+    }
+
+    19% {
+        content: "Develop |";
+    }
+
+    20% {
+        content: "Develo |";
+    }
+
+    21% {
+        content: "Devel |";
+    }
+
+    22% {
+        content: "Deve |";
+    }
+
+    23% {
+        content: "Dev |";
+    }
+
+    24% {
+        content: "De |";
+    }
+
+    25% {
+        content: "Des |";
+    }
+
+    26% {
+        content: "Des |";
+    }
+
+    27% {
+        content: "Desg |";
+    }
+
+    28% {
+        content: "Desgi |";
+    }
+
+    29% {
+        content: "Desgin |";
+    }
+
+    30% {
+        content: "Desgin |";
+    }
+
+    32% {
+        content: "Desgine |";
+    }
+
+    36% {
+        content: "Desginer |";
+    }
+
+    37% {
+        content: "Desgine |";
+    }
+
+    38% {
+        content: "Desgin |";
+    }
+
+    39% {
+        content: "Desgi |";
+    }
+
+    40% {
+        content: "Desg |";
+    }
+
+    41% {
+        content: "Des |";
+    }
+
+    42% {
+        content: "De |";
+    }
+
+    43% {
+        content: "D |";
+    }
+
+    44% {
+        content: " |";
+    }
+
+    45% {
+        content: "P |";
+    }
+
+    46% {
+        content: "Ph |";
+    }
+
+    48% {
+        content: "Pho |";
+    }
+
+    50% {
+        content: "Phot |";
+    }
+
+    51% {
+        content: "Photo |";
+    }
+
+    52% {
+        content: "Photog |";
+    }
+
+    54% {
+        content: "Photogr |";
+    }
+
+    55% {
+        content: "Photogra |";
+    }
+
+    57% {
+        content: "Photograp |";
+    }
+
+    59% {
+        content: "Photograph |";
+    }
+
+    58% {
+        content: "Photographe |";
+    }
+
+    60% {
+        content: "Photographer |";
+    }
+
+    61% {
+        content: "Photographe |";
+    }
+
+    62% {
+        content: "Photograph |";
+    }
+
+    63% {
+        content: "Photograp |";
+    }
+
+    64% {
+        content: "Photogra |";
+    }
+
+    65% {
+        content: "Photogr |";
+    }
+
+    66% {
+        content: "Photog |";
+    }
+
+    67% {
+        content: "Photo |";
+    }
+
+    68% {
+        content: "Phot |";
+    }
+
+    69% {
+        content: "Pho |";
+    }
+
+    70% {
+        content: "Ph |";
+    }
+
+    71% {
+        content: "P |";
+    }
+
+    72% {
+        content: " |";
+    }
+
+    74% {
+        content: "F |";
+    }
+
+    76% {
+        content: "Fr |";
+    }
+
+    77% {
+        content: "Fre |";
+    }
+
+    78% {
+        content: "Free |";
+    }
+
+    80% {
+        content: "Freel |";
+    }
+
+    82% {
+        content: "Freela |";
+    }
+
+    84% {
+        content: "Freelan |";
+    }
+
+    86% {
+        content: "Freelanc |";
+    }
+
+    88% {
+        content: "Freelance |";
+    }
+
+    90% {
+        content: "Freelancer |";
+    }
+
+    91% {
+        content: "Freelance |";
+    }
+
+    92% {
+        content: "Freelanc |";
+    }
+
+    93% {
+        content: "Freelan |";
+    }
+
+    94% {
+        content: "Freela |";
+    }
+
+    95% {
+        content: "Freel |";
+    }
+
+    96% {
+        content: "Free |";
+    }
+
+    97% {
+        content: "Fre |";
+    }
+
+    98% {
+        content: "Fr |";
+    }
+
+    99% {
+        content: "F |";
+    }
+
+    100% {
+        content: " |";
+    }
+}
+
+.container-content span {
+    color: rgb(245, 68, 68);
+}
+
+.information h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.information span{
+    color: palevioletred;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.btn a {
+    width: 2rem;
+    height: 70px;
+    background-color: palevioletred;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.services{
+    background-color: whitesmoke;
+}
+.services h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.services-line{
+    color: palevioletred;
+}
+.fa-stack {
+    font-size: 0.5em;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.services-icons {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.services-icons span {
+    display: inline-flex;
+    
+    align-items: center;
+    height: 7rem;
+    width: 7rem;
+    color: palevioletred;
+    transition: all .8s ease-in-out;
+}
+.service {
+    box-shadow: 0px 0px 10px 1px rgb(216, 216, 216);
+    padding: 3rem 1rem;
+    margin: 2rem 0rem;
+    background-color: white;
+    
+}
+.service:hover{
+    box-shadow: 0px 0px 10px 5px rgb(216, 216, 216);
+}
+.service h2 {
+    font-size: 25px;
+    font-weight: bolder;    
+}
+.rates{
+    background-image: url(../Imgs/ravenna.png);
+    
+    background-size: cover;
+    background-position: center center; 
+    margin: 3rem 0rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    background-attachment: fixed;
+}
+
+.rate{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    padding: 7rem 0rem;
+}
+.rate h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.rate p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portofolio-head{
+    color: palevioletred;
+}
+.portfolio h2{
+    font-weight: bolder;
+}
+.chossing{
+    padding: 2em 0 0 0;
+    display: flex;
+    margin: 2em 0 0 0;
+    
+}
+.chossing p:active{
+    color: palevioletred;
+}
+.chossing p:hover{
+    color: palevioletred;
+}
+.chossing p{
+margin-right: 2em;
+}
+.section{
+    box-sizing: border-box;
+    margin: 2rem 1rem;
+}
+.portfolio img{
+    width: 100%;
+    height: 50vh;
+    transition: transform .8s;
+    overflow: hidden;
+}
+.sectio-photo{
+    overflow: hidden
+}
+
+.sectio-photo img:hover{
+    transform: scale(1.2);
+}
+/*  */
+.news{
+    margin-top: 3rem;
+}
+.new{
+    box-shadow: 1px 1px 8px 3px #ddd;
+    margin-bottom: 2rem;
+}
+.new-photo{
+    position: relative;
+    overflow: hidden;
+}
+
+.new-photo img{
+    width: 100%;
+    transition: transform .8s;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+.new-photo img:hover{
+    
+    transform: scale(1.2) rotate(5deg);
+    
+}
+
+.new-content{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.new-content h2{
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+.new-content h2:hover{
+    color: palevioletred;
+}
+.new-content a{
+    text-decoration: none;
+}
+
+
+
+/*  */
+.contact{
+    margin-top: 3rem ;
+    background-color:whitesmoke;
+}
+.contact-box{
+    padding: 3rem;
+}
+.contact-message p{
+    color: palevioletred;
+}
+.contact-message h2{
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 2em;
+ }
+.text-center button{
+    color: white;
+    background-color: palevioletred;
+}
+.map{
+    width: 100%;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 4em 10em;
+
+}
+.copyrights{
+    display: flex;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icons span{
+    margin-right: 20px;
+}
